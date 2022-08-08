@@ -1,0 +1,147 @@
+{"intents":
+  [
+    {
+      "tag":"greeting",
+      "input":["hello","hi there","nice to meet you","hi, is this is the Banglore Food Bank?","Anyone here ?","hi","hey there","hey","hi there","hi, nice to meet you","hello there","anyone there ?","hello nibble","knock knock"],
+      "responses":[
+          "Hi. Welcome to Banglore's biggest food banking network - The Banglore Food Bank",
+          "Hey yo, do you need help ?",
+          "welcome aboard, how may I help you ?",
+          "Aola!!",
+          "Hi random person, what do'ya want ?",
+          "Hello my friend, How can I help you ?",
+          "Ha , Glad you showed up. How are you ?"
+        ]
+    },
+    {
+      "tag":"goodbye",
+      "input":["Thank you","Thanks","Thanks for the info","bye","byr bro","adios","okay bye","goodbye","see you later","i will catch you later","i will catch up later","okay i will see you later","I will talk to you later","will text you later","bye bro, I'll talk to you later","Bye brother"],
+      "responses":[
+          "Okay, Bye",
+          "Have a nice day, Hope u will help us",
+          "Adios",
+          "Goodbye, Hope u will help us",
+          "see you later, Hope u will help us",
+          "nice conversation. bye",
+          "okay. Have a nice day",
+          "Take care, Hope u will help us",
+          "we'll meet soon",
+          "Yeah Sure, Hope u will help us",
+          "Okay , Take care","Bye, Hope u will help us"
+        ]
+    },
+    {
+      "tag":"howami",
+      "input":["how are you ?","I am fine , how are you ?","are you fine ?","how are things going on ?","everything going on okay ?","how's everything there ?","how's everything going on ?","is everything okay ?"],
+      "responses":[
+          "Yeah , am fine",
+          "Everything's going on well",
+          "Doing good.Thanks you are my best friend",
+          "Things are Great",
+          "Yeah Fine, nothing much going on in my life",
+          "I am Great , wanna join the pirate's organization ?",
+          "Everything's great.",
+          "I am doing good. Life is boring. need to go on an adventure"
+        ]
+    },
+    {
+      "tag":"whereareyou",
+    "input":["where are you from ?","which country are you from ?","where do you live ?","where are you ?","where do you live in ?","which place do you live in ?","where are you currently at","where do you live currently ?","you are from where","you are from ?"],
+      "responses":[
+          "I Live in Banglore, India",
+          "I am living in Banglore",
+          "I live in Banglore. Also called the industrial city",
+          "Banglore. The city of dreams",
+	    " Banglore, the tech city"
+        ]
+    },
+    {
+      "tag":"donate",
+      "input":["how should I donate ?","Where to donate","where should i donate","where can i donate","where donate","how to donate?","how do I donate?","How to donate for your cause?","how do I donate for Banglore food bank ?","steps to donate","how to donate for this good cause ?","Donation","whats the donation process","how is the donation process","how to start donating","help me for donation","how should i donate"],
+      "responses":[
+
+        "you can use the donate option under each campaign",
+        "decide a cause of your choice and then donate",
+        "well, select a capaign first, and then proceed with the donate option",
+	  "you can find the doante option under each campaign",
+        "Donate by deciding a campaign",
+        "you will find a donate option under each campaign",
+        "check out our campaigns, you will see a donation option",
+        "decide a campaign of your choice and then proceed with donate option",
+        "go ahead and select the donate option under any campaign"
+      ]
+    },
+    {
+      "tag":"join",
+      "input":["how should I join this cause?","how to join?","how can I join?","How to join your purpose?","how do I join this good cause?","how to join the Banglore Food Bank?","how to support","how to join and support","steps to join this cause","steps to join and donate"],
+      "responses":[
+
+        "you can go through the campaign list and help us with donations",
+        "choose a cause of your choice and donate",
+        "we accept donations for help",
+	  "join the cause by donating",
+        "donate for our campaigns",
+        "we would love to have your donation",
+	  "donate and help us out",
+        "donate for your interested campaign",
+	  "we would love your help with donations"
+      ]
+    },
+    {
+      "tag":"campaign",
+      "input":["what are the diffrent campaigns?","How many campaigns?","can you list some campaign?","what are the campaigns?","which all campaigns?","what all campaigns can I support", "various campaigns"],
+      "responses":[
+
+        "We have 4 basic campaigns:NGO feeding, food for school children, food rescue, food relief and much more",
+        "The 4 basic campaigns are: NGO feeding, food for school children, food rescue, and food relief, we also have other exciting programs",
+        "Our top 4 program: NGO feeding, food for school children, food rescue and food relief ",
+	  "We have the following campaigns: NGO feeding, food for school children, food rescue, food relief"
+      ]
+    },
+    {
+      "tag":"whoareyou",
+    "input":["who are you ?","what are you ?","what is your name ?","are you a chatbot ?","what can I call you ?","your name ?","are you a bot ?","how do I address you ?","How do I call you"],
+      "responses":[
+          "I am a Chatbot , you can call me Nibble",
+          "I am Nibble and you could ask me questions about our organization",
+          "Nibble at your service",
+          "My name is Nibble and yes, I am the G.O.A.T",
+          "You can call me Nibble and I am here to Help you",
+          "My name is Nibble and I am here to answer your questions regarding our organization. go ahead and shoot"
+        ]
+    },
+  
+    
+    {
+      "tag":"details",
+      "input":["What is this organization all about ?","Scope of Organization ?","What is the work you do ?","Tell me about your work","Tell me more about the organisation ?"],
+      "responses":[
+
+        "Bangalore Food Bank is all about feeding those who cannot feed themselves",
+        "We are here to help in eradicating hunger from our society. You would be donating for a good cause.",
+        "We feed the children in shelter homes and schools. We colab with our ground level partners to identify the most needy."
+        
+      ]
+    },
+    {
+      "tag":"contact",
+      "input":["where do I find your centre ?","what are you located ?","Your centre's location ?","tell me about your location","Where do you operate from ?","Give me your location ?","How do I find you ?","Where in Bangalore are you located ?","How do I find you ?"],
+      "responses":[
+        "We are available in XYZ in Bangalore. Would be waiting to meet you !!",
+        "You could find us here in XYZ in Bangalore.",
+        "We have our office in XYZ, Bangalore"
+      ]
+    },
+
+    {
+        "tag": "statistics",
+        "input": ["How much have you achieved so far ?", "Why should I donate here ?", "Your achievements ?", "Where have you worked before ?", "Your contributions ?", "Where have you contributed ?", "How have you helped ?"],
+        "responses": [
+          "We have supported more than 30 NGO's dedicated to the cause",
+          "We have donated 519 million tonnes of food to the needy. You'll be helping those who actually need it",
+          "Despite our young existence, we have donated over 519 million tonnes of food to the needy",
+          "We support 30 NGO's and schools. We act as first responders whenever there is a need for distribution of food during any crisis."
+        ]
+    }
+  ]
+}
